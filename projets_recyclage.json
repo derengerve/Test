@@ -1,0 +1,195 @@
+{
+  "projets_recyclage": {
+    "serveur_nas": {
+      "nom": "Serveur NAS Domestique",
+      "difficulte": "Moyenne",
+      "temps_estime": "2-3 heures",
+      "materiel_requis": [
+        "Disque dur externe ou SSD",
+        "Câbles USB/SATA",
+        "Clavier et souris USB"
+      ],
+      "logiciels_requis": [
+        "OpenMediaVault",
+        "Samba",
+        "FTP Server"
+      ],
+      "etapes": [
+        "Sauvegarder les données existantes",
+        "Installer OpenMediaVault",
+        "Configurer les partages réseau",
+        "Tester l'accès depuis d'autres appareils"
+      ],
+      "avantages": [
+        "Stockage centralisé pour toute la maison",
+        "Sauvegarde automatique",
+        "Accès à distance"
+      ]
+    },
+    "console_retrogaming": {
+      "nom": "Console de Rétrogaming",
+      "difficulte": "Facile",
+      "temps_estime": "1-2 heures",
+      "materiel_requis": [
+        "Manettes USB",
+        "Clavier USB",
+        "Carte microSD (optionnel)"
+      ],
+      "logiciels_requis": [
+        "RetroArch",
+        "Emulateurs (NES, SNES, PS1, etc.)",
+        "Kodi"
+      ],
+      "etapes": [
+        "Installer RetroArch",
+        "Télécharger les ROMs légales",
+        "Configurer les manettes",
+        "Installer des thèmes"
+      ],
+      "avantages": [
+        "Jeux rétro sur TV moderne",
+        "Interface unifiée",
+        "Support de nombreux systèmes"
+      ]
+    },
+    "centre_domotique": {
+      "nom": "Centre de Contrôle Domotique",
+      "difficulte": "Avancée",
+      "temps_estime": "4-6 heures",
+      "materiel_requis": [
+        "Modules domotiques (Zigbee, Z-Wave)",
+        "Capteurs de température/humidité",
+        "Interrupteurs intelligents"
+      ],
+      "logiciels_requis": [
+        "Home Assistant",
+        "Node-RED",
+        "Mosquitto MQTT"
+      ],
+      "etapes": [
+        "Installer Home Assistant",
+        "Configurer les périphériques",
+        "Créer des automatisations",
+        "Configurer l'interface mobile"
+      ],
+      "avantages": [
+        "Contrôle centralisé de la maison",
+        "Automatisations intelligentes",
+        "Économies d'énergie"
+      ]
+    },
+    "serveur_web": {
+      "nom": "Serveur Web Local",
+      "difficulte": "Moyenne",
+      "temps_estime": "2-3 heures",
+      "materiel_requis": [
+        "Clavier USB",
+        "Carte réseau stable"
+      ],
+      "logiciels_requis": [
+        "Apache ou Nginx",
+        "PHP",
+        "MySQL ou MariaDB",
+        "WordPress (optionnel)"
+      ],
+      "etapes": [
+        "Installer le serveur web",
+        "Configurer la base de données",
+        "Déployer les applications",
+        "Configurer la sécurité"
+      ],
+      "avantages": [
+        "Hébergement local",
+        "Apprentissage du développement web",
+        "Contrôle total des données"
+      ]
+    },
+    "station_meteo": {
+      "nom": "Station Météo Connectée",
+      "difficulte": "Avancée",
+      "temps_estime": "3-4 heures",
+      "materiel_requis": [
+        "Capteurs météo (température, humidité, pression)",
+        "Module WiFi/Bluetooth",
+        "Batterie externe (optionnel)"
+      ],
+      "logiciels_requis": [
+        "Python",
+        "Bibliothèques de capteurs",
+        "Base de données SQLite",
+        "Interface web"
+      ],
+      "etapes": [
+        "Connecter les capteurs",
+        "Écrire le code de collecte",
+        "Créer l'interface web",
+        "Configurer l'enregistrement des données"
+      ],
+      "avantages": [
+        "Données météo locales précises",
+        "Historique des données",
+        "Intégration domotique possible"
+      ]
+    },
+    "media_center": {
+      "nom": "Centre Média Avancé",
+      "difficulte": "Facile",
+      "temps_estime": "1-2 heures",
+      "materiel_requis": [
+        "Disque dur externe",
+        "Clavier/souris USB",
+        "Manette (optionnel)"
+      ],
+      "logiciels_requis": [
+        "Kodi",
+        "Plex Media Server",
+        "VLC",
+        "Extensions Kodi"
+      ],
+      "etapes": [
+        "Installer Kodi",
+        "Configurer les sources média",
+        "Installer des add-ons",
+        "Personnaliser l'interface"
+      ],
+      "avantages": [
+        "Interface média unifiée",
+        "Support de nombreux formats",
+        "Streaming vers d'autres appareils"
+      ]
+    }
+  },
+  "ressources_utiles": {
+    "sites_officiels": {
+      "philips_support": "https://www.philips.com/support",
+      "firmware_downloads": "https://www.philips.com/support-en/downloads"
+    },
+    "communautes": {
+      "forum_philips": "https://www.philips.com/community",
+      "reddit_androidtv": "https://reddit.com/r/AndroidTV",
+      "xda_developers": "https://forum.xda-developers.com/",
+      "kodi_forum": "https://forum.kodi.tv/"
+    },
+    "outils_logiciels": {
+      "adb": "Android Debug Bridge pour accès root",
+      "fastboot": "Pour flashage de firmware",
+      "rufus": "Création de clés bootables",
+      "balena_etcher": "Alternative à Rufus"
+    }
+  },
+  "securite": {
+    "avertissements": [
+      "Toujours débrancher l'appareil avant manipulation",
+      "Utiliser un équipement antistatique",
+      "Sauvegarder les données avant modification",
+      "Vérifier la garantie avant ouverture",
+      "Faire appel à un professionnel si nécessaire"
+    ],
+    "bonnes_pratiques": [
+      "Tester sur un appareil de test avant",
+      "Documenter toutes les modifications",
+      "Garder les pièces originales",
+      "Suivre les guides officiels"
+    ]
+  }
+}
